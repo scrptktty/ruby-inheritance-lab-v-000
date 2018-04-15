@@ -12,6 +12,7 @@ class Teacher < User
 
   def teach
     KNOWLEDGE.shuffle.first
+    #slow
   end
 
 end
