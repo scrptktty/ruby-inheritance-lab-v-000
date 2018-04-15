@@ -10,6 +10,7 @@ class Teacher < User
     "bash Ruby rvm update certs"
   ]
     
-
+  def teach
+  end
 
 end
