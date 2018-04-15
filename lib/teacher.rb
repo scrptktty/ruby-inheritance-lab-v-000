@@ -9,8 +9,9 @@ class Teacher < User
     "class method class variable instance method instance variable", "programming computers hacking learning terminal",
     "bash Ruby rvm update certs"
   ]
-    
+
   def teach
+    KNOWLEDGE.sample(1)
   end
 
 end
